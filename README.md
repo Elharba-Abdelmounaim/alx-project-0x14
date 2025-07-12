@@ -123,6 +123,6 @@ You are free to use, modify, and distribute it with proper attribution.
 
 ## 📬 Contact
 
-Made with ❤️ by **[Abdelmounaim Elharba](https://www.linkedin.com/in/monim-elharba-246861338)**  
+Made with ❤️ by **[Abdelmounaim Elharba][(https://www.linkedin.com/in/monim-elharba-246861338)](https://www.linkedin.com/in/abdelmounaim-elharba-246861338/)**  
 📧 **Email**: [elharba.abdelmounaim@gmail.com](mailto:elharba.abdelmounaim@gmail.com)  
 
