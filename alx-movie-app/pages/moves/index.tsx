@@ -33,7 +33,7 @@ const Movies: React.FC<MProps> = () => {
 
     if (!response.ok) {
       setLoading(false)
-     
+      throw new Error("Something went wrong")
     }
 
     const data = await response.json()
@@ -65,10 +65,10 @@ const Movies: React.FC<MProps> = () => {
         onChange={(event: React.ChangeEvent<HTMLSelectElement>) => setYear(Number(event.target.value))}
         className="border-2 border-[#E2D609] outline-none bg-transparent px-4 md:px-8 py-2 mt-4 md:mt-0 rounded-full w-full md:w-auto"
       >
-        <option value="">Select Year</option>
+        <option className="text-blac" value="">Select Year</option>
         {
           [2024, 2023, 2022, 2021, 2020, 2019].map((year: number) => (
-            <option value={year} key={year}>{year}</option>
+            <option value={year} key={year} className="text-black">{year}</option>
           ))
         }
       </select>
